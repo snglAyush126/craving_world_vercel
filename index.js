@@ -20,7 +20,7 @@ app.get("/",function(req,res){
 res.render("craving");
 });
 app.get("/home",(req,res)=>{
- res.send("<h1> Working Fine!!</h1>");
+ res.send("<h1> Workiiing Fine!!</h1>");
 });
 
 app.listen(port, () => {
