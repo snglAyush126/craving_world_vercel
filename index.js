@@ -19,6 +19,9 @@ app.set('views','./views');
 app.get("/",function(req,res){
 res.render("craving");
 });
+app.get("/home",(req,res)=>{
+ res.send("<h1> Working Fine </h1>");
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
